@@ -10,14 +10,8 @@ body, input, select, textarea {
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
   font-weight: 700;
   letter-spacing: 0.1em;
   margin: 0 0 1em 0;
   text-transform: uppercase;
-
-  pre code {
-    display: block;
-    line-height: 0em;
-    padding: 0em 0em;
-    overflow-x: auto;
