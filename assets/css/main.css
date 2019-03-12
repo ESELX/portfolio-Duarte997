@@ -1993,6 +1993,7 @@ input, select, textarea {
 					height: 100%;
 				}
 
+				/* imagem do perfil */
 					#main > .panel.intro .pic:before {
 						content: '';
 						position: absolute;

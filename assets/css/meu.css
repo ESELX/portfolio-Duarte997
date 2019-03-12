@@ -1,5 +1,5 @@
 	body {
-  background-image: url("images/overlay.png"), url("images/bg.jpg");
+  background-color: #ffc575;
   background-repeat: repeat, no-repeat;
   background-size: auto, 100% 100%;
   background-attachment: fixed;
@@ -110,6 +110,7 @@
     transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
   }
 
+/* imagem do perfil */
   #main > .panel.intro .pic:before {
     content: '';
     position: absolute;
