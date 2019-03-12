@@ -1,6 +1,6 @@
 	body {
   background-color: #ffc575;
-  background-repeat: repeat, no-repeat;
+	background-repeat: repeat, no-repeat;
   background-size: auto, 100% 100%;
   background-attachment: fixed;
   overflow-y: scroll;
