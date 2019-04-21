@@ -142,3 +142,21 @@
     -ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
     transition: width .15s ease-in-out, padding-right .15s ease-in-out;
   }
+
+	#main > .panel.intro header p {
+		letter-spacing: -0.015em;
+		font-size: 1.00em;
+		margin: 0.25em 0 0 0;
+		color: #595959
+	}
+
+	#main > .panel.intro header h1 {
+		line-height: 1.25em;
+		margin-bottom: 0;
+		color: #ffc575
+	}
+
+	header h1 {
+		font-family: 'Audiowide', cursive;
+		font-size: 2em
+	}
