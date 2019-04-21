@@ -160,3 +160,19 @@
 		font-family: 'Audiowide', cursive;
 		font-size: 2em
 	}
+
+	body, input, textarea, select {
+		font-family: 'Special Elite', cursive;
+		font-weight: 300;
+		color: #777777;
+		font-size: 16pt;
+		line-height: 1.75em;
+	}
+
+	span {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: #777777;
+		font-size: 20pt;
+		line-height: 1.75em;
+	}
