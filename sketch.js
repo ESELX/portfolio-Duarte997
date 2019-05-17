@@ -14,7 +14,7 @@ function setup() {
 	INNER_RADIUS = screenPct * 200;
 	RADIUS_VARIATION = screenPct * 200;
 
-	textFont('Georgia');
+	textFont('Baloo Bhai');
 	textSize(fontSize);
 }
 
@@ -22,7 +22,7 @@ function setup() {
 //generates a circular noise with perfect looping
 //https://forum.processing.org/one/topic/how-to-make-perlin-noise-loop.html
 function pointForIndex(pct) {
-	const NOISE_SCALE       = 1.5;
+	const NOISE_SCALE       = .5;
   let angle = pct * TWO_PI;
   let cosAngle = cos(angle);
   let sinAngle = sin(angle);
@@ -37,7 +37,7 @@ function pointForIndex(pct) {
 
 function draw() {
   background(255);
-	fill(0);
+	fill(255);
   noStroke();
 
 	//draw sphere
@@ -47,7 +47,7 @@ function draw() {
 			vertex(p0.x, p0.y);
 		}
 	endShape(CLOSE);
-
+  fill(0);
 	//draw text
 	let pct = atan2(mouseY - centerY, mouseX - centerX) / TWO_PI;//follow mouse
 	//let pct = 0;//dont follow mouse
